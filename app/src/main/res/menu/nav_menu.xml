@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/video_item"
+            android:icon="@drawable/ic_video"
+            android:title="@string/video" />
+        <item
+            android:id="@+id/radio_item"
+            android:icon="@drawable/ic_radio"
+            android:title="@string/radio" />
+        <item
+            android:id="@+id/equalizer_icon"
+            android:icon="@drawable/ic_equalizer"
+            android:title="@string/equalizer" />
+        <item
+            android:id="@+id/timer_item"
+            android:icon="@drawable/ic_timer"
+            android:title="@string/timer" />
+
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/settings" />
+    </group>
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/donate_item"
+                android:icon="@drawable/ic_monetization"
+                android:title="@string/donate" />
+            <item
+                android:id="@+id/rate_icon"
+                android:icon="@drawable/ic_star_rate"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+</menu>

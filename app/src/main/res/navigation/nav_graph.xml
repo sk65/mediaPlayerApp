@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_track">
+
+    <fragment
+        android:id="@+id/navigation_track"
+        android:name="com.yefimoyevhen.mediaplayerapp.view.fragment.TrackFragment"
+        android:label="fragment_track"
+        tools:layout="@layout/fragment_track" />
+    <fragment
+        android:id="@+id/navigation_bookMarks"
+        android:name="com.yefimoyevhen.mediaplayerapp.view.fragment.MainFragment"
+        android:label=""
+        tools:layout="@layout/fragment_main" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_album"
+        android:name="com.yefimoyevhen.mediaplayerapp.view.fragment.AlbumFragment"
+        android:label="fragment_album"
+        tools:layout="@layout/fragment_album" />
+    <fragment
+        android:id="@+id/navigation_artist"
+        android:name="com.yefimoyevhen.mediaplayerapp.view.fragment.ArtistFragment"
+        android:label="fragment_artist"
+        tools:layout="@layout/fragment_artist" />
+    <fragment
+        android:id="@+id/navigation_playlist"
+        android:name="com.yefimoyevhen.mediaplayerapp.view.fragment.PlayListFragment"
+        android:label="fragment_play_list"
+        tools:layout="@layout/fragment_play_list" />
+</navigation>
